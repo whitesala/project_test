@@ -1,0 +1,110 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    display: flex;
+    z-index: -1;
+    background-image: linear-gradient(to left, #7f8c8d, #34495e);
+}
+
+
+
+.header {
+    background-color: #fff;
+    width: 100%;
+    border-bottom: solid 1px grey;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, .4);
+    position: fixed;
+    top: 0px;
+    z-index: 999;
+    overflow: hidden;
+}
+
+.header .logo_img {
+    display: block;
+    float: left;
+    /* background: #c8bbbb; */
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+}
+
+.position_link {
+    clear: both;
+    float: left;
+    display: block;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 10px;
+}
+
+.nav {
+    width: 900px;
+    margin-left: 150px;
+}
+
+.nav ul>li {
+    float: left;
+    list-style: none;
+    display: inline-block;
+    width: 180px;
+    line-height: 100px;
+    padding: 0px;
+}
+
+.nav ul>li:hover {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.nav a {
+    color: gray;
+    font-size: 28px;
+    font-family: sans-serif;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.nav a:hover {
+    color: #fff;
+}
+
+.search {
+    width: 580px;
+    height: 100px;
+    margin-left: 1130px;
+}
+
+.search .search_box {
+    width: 400px;
+    height: 60px;
+    padding: 5px;
+    position: relative;
+    left: 130px;
+    top: 15px;
+    border: solid 1px #000;
+    border-radius: 35px;
+    font-size: 18px;
+}
+
+.login {
+    position: absolute;
+    float: left;
+    width: 280px;
+    height: 100px;
+    margin-left: 2250px;
+    top: 40px;
+}
+
+.login a {
+    text-decoration: none;
+    color: red;
+}
+
+.login a:hover {
+    transition: .6s;
+    color: blue;
+}

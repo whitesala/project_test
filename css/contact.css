@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* 将所有边距默认清空 */
+body {
+    /* width: 100vh; */
+    height: 100vh;
+    display: flex;
+    /* 弹性盒模型 */
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to left, #7f8c8d, #34495e);
+}
+
+.content {
+    margin: 0 auto;
+    font-size: 6em;
+    font-weight: bold;
+    color: #9b59b6;
+    cursor: pointer;
+    user-select: none;
+}
+
+.content>span {
+    position: relative;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.color {
+    animation-name: color;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+@keyframes color {
+    /*为color添加关键帧*/
+    50% {
+        color: #f1c40f;
+        transform: scale(2);
+        /*将字体放大两倍*/
+    }
+    to {
+        color: #e74c3c;
+        transform: scale(.5);
+        /*将字体放大两倍*/
+    }
+}

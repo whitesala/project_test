@@ -1,0 +1,87 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to left, #7f8c8d, #34495e);
+}
+.register_box {
+    width: 800px;
+    height: 750px;
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, .8);
+    border-radius: 15px;
+}
+h2{
+    display: block;
+    position: relative;
+    top: 40px;
+    text-align: center;
+    font: 900 35px 'YouSheBiaoTiHei';
+}
+form{
+    position: relative;
+    top: 100px;
+    left: 150px;
+}
+input{
+    width: 300px;
+    height: 50px;
+    padding-left: 15px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, .8);
+}
+td{
+    width:120px;
+}
+.info_font{
+    color: #7f8c8d;
+    font: 500 18px 'monospace';
+}
+button{
+    width: 100px;
+    height: 40px;
+    position: relative;
+    left: 150px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, .8);
+}
+button:hover{
+    transition: .6s;
+    background-color: #2c3e50;
+    color: rgb(74, 220, 171);
+    cursor: pointer;
+}
+form .checkbox{
+    width: 15px;
+    height: 15px;
+}
+.reset-btn{
+    width: 100px;
+    height: 40px;
+    position: relative;
+    left: 200px;
+}
+.reset-btn:hover{
+    transition: .6s;
+    background-color: #1d2329;
+    color: rgb(175, 21, 21);
+    cursor: pointer;
+}
+a{
+    display: block;
+    text-decoration: none;
+    position: absolute;
+    bottom: 10px;
+    left: 56%;
+    color:rgb(74, 220, 171);
+}
+a:hover{
+    transition: .6s;
+    color: red;
+}

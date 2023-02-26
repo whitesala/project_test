@@ -1,0 +1,106 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    display: flex;
+    height: 120vh;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to left, #7f8c8d, #34495e);
+}
+.main_box{
+    width: 900px;
+    height: 650px;
+    background-color:rgb(94, 122, 123);
+    /* border: 2px solid #ccc; */
+    box-shadow: 5px 5px 10px rgba(0,0,0,.5);
+}
+.back_home {
+    width: 200px;
+    height: 40px;
+    user-select: none;
+}
+.back_home a {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #34495e;
+    border-radius: 50px;
+    font-size: 30px;
+    color: #2c3e50;
+}
+.back_home a:hover {
+    transition: .6s;
+    background-color: #2c3e50;
+    color: aliceblue;
+
+}
+.back_home span {
+    float: left;
+    display: block;
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font: 600 16px 'monospace';
+    color: antiquewhite;
+}
+.info{
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+.info tr{
+    height: 40px;
+}
+.info .info_title{
+    font-size: 20px;
+}
+.info td input{
+    width: 370px;
+    height: 25px;
+    border-radius: 8px;
+}
+.info button{
+    width: 900px;
+    height: 50px;
+    border: none;
+    position: absolute;
+    top: 540px;
+    left: -20px;
+    background-color: rgb(89, 108, 109);
+    font: 500 20px "Helvetica Neue";
+    color: rgb(69, 69, 68);
+    user-select: none;
+}
+.info button:hover{
+    transition: .6s;
+    background-color: rgb(7, 186, 126);
+    color: crimson;
+}
+
+.bookimg{
+    height: 350px;
+    border: 4px dashed rgba(0,0,0,.5);
+    position: relative;
+    top: 24px;
+    user-select: none;
+    
+}
+.bookimg span{
+    position: absolute;
+    top: 30px;
+    left: 220px;
+    font: 600 40px 'monospace';
+    color: darkgrey;
+}
+.bookimg img{
+    position: relative;
+    top: 140px;
+    left: 400px;
+    width: 100px;
+}

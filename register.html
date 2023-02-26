@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/register.css">
+    
+</head>
+<body>
+    <div class="register_box">
+        <h2>Register</h2>
+        <form action="register.jsp" id="form" onsubmit="return check()">
+            <table>
+                <tr>
+                    <td class="info_font">Username</td>
+                    <td><input type="text" placeholder="Please input username" onblur="checkUsername(this)" id="username">
+                    <font color="red" size = "2" id="usernameMsg"></font>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="info_font">Password</td>
+                    <td><input type="password" placeholder="set password" onblur="checkPassword(this)" name="psd" id="psd">
+                    <font color="red" size = "2" id="psdMsg"></font>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="info_font">Confirm password</td>
+                    <td><input type="password" placeholder="confirm your password" onblur="checkPassword(this)" name="repsd" id="repsd">
+                    <font color="red" size = "2" id="repsdMsg"></font>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="info_font">Email</td>
+                    <td><input type="text" placeholder="Please input email" onblur="checkEmail(this)" name="eml" id="eml">
+                    <font color="red" size = "2" id="emlMsg"></font>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="info_font">Telephone</td>
+                    <td><input type="text" placeholder="input your telephone" onblur="checkTel(this)" name="tel" id="tel">
+                    <font color="red" size = "2" id="telMsg"></font>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td class="info_font"></td>
+                    <td><input type="checkbox" class="checkbox">
+                        I have read the agreement</td>
+                </tr>
+            </table>
+            <button type="submit" name="confirm_btn">Sign up</button>
+        </form>
+        <a href="login.html">Already have an account? Log in now>>></a>
+    </div>
+</body>
+<script src="js/validate.js"></script>
+</html>

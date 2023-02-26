@@ -1,0 +1,153 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to left,#7f8c8d,#34495e);
+}
+a{
+    text-decoration: none;
+}
+
+.login_box {
+    float: left;
+    width: 1100px;
+    height: 550px;
+    position: relative;
+    top: 100px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, .8);
+
+}
+.margin_img{
+    float: left;
+}
+.margin_img img{
+    width: 800px;
+    height: 550px;
+    background-size: cover;
+}
+
+.info{
+    float: left;
+    width: 300px;
+    height: 550px;
+    position: absolute;
+    left: 800px;
+}
+.back_home{
+    width: 200px;
+    height: 40px;
+    user-select: none;
+}
+.back_home a{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #34495e;
+    border-radius: 50px;
+    font-size: 30px;
+    color: #2c3e50;
+}
+.back_home a:hover{
+    transition: .6s;
+    background-color: #2c3e50;
+    color: aliceblue;
+
+}
+.back_home span{
+    float: left;
+    display: block;
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font: 600 16px 'monospace';
+}
+.title{
+    display: inline-block;
+    line-height: 14px;
+    position: relative;
+    top: 50px;
+    width: 280px;
+    text-align: center;
+    font: 400 34px 'YouSheBiaoTiHei';
+}
+.box{
+    width: 300px;
+    position: relative;
+    top: 40px;
+}
+.box input{
+    width: 250px;
+    height: 40px;
+    border-radius: 30px;
+    position: inherit;
+    top: 20px;
+    left: 25px;
+    margin-top: 20px;
+}
+.confirm{
+    position: relative;
+    top: 80px;
+    left: 28px;
+    font-size: 12px;
+    user-select: none;
+}
+.login_api{
+    position: relative;
+    top: 100px;
+    left: 50px;
+    user-select: none;
+    /* float: left; */
+}
+.login_api a{
+    display: block;
+    float: left;
+    margin-left: 25px;
+    border-radius: 50px;
+}
+.login_api a>img:hover{
+    background-color: #1d5d62;
+}
+.login_api a>img{
+    width: 20px;
+    border-radius: 50px;
+}
+.login_btn{
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+    line-height: 50px;
+    position: relative;
+    top: 130px;
+    left: 90px;
+    text-decoration:none;
+    color: bisque;
+    border: 1px solid darkgrey;
+    border-radius: 40px;
+    user-select: none;
+    
+}
+.login_btn:hover{
+    transition: .6s;
+    background-color: #2c3e50;
+    color: aquamarine;
+}
+
+.register_link{
+    font-size: 14px;
+    position: relative;
+    display: block;
+    left: 90px;
+    top: 220px;
+    user-select: none;
+}
+.register_link:hover{
+    transition: .6s;
+    color: cyan;
+}
